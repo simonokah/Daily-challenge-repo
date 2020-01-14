@@ -1,0 +1,29 @@
+body{
+  background-color: white;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 4s;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+img {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+@-webkit-keyframes example {
+  from {background-color: white;}
+  to {background-color: grey;}
+}
+
+@keyframes example {
+  from {background-color: white;}
+  to {background-color: grey;}
+}
